@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: gold;
+}
+
+.t-letter {
+    font-size: 2.5rem;
+}
+
+.leaf {
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+
+.tagline {
+    font-style: italic;
+    color: #ccc;
+}
+
+.hero {
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, black, #222);
+}
+
+.catalog {
+    padding: 30px 20px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    background-color: gold;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkgoldenrod;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: black;
+    font-size: 0.9rem;
+}
